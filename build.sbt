@@ -6,3 +6,5 @@ lazy val root = (project in file("."))
   .settings(
     name := "scala-book"
   )
+
+libraryDependencies += "com.outr" %% "scribe" % "3.8.0"
